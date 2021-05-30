@@ -9,7 +9,7 @@ const int ledPin = 8; // Digital output pin of LED
  * Therefore a baud = 200 and baud = 170 will actually be the same speed, since
  * they produce produce a period of 5 milliseconds (due to integer division)
  */
-const int baud = 333; // Bits per second
+const int baud = 50; // Bits per second
 long period;  // Milliseconds between bits
 
 void setup() {
