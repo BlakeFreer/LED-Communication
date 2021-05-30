@@ -4,7 +4,7 @@
 const int photoPin = 0; // Analog input pin of photoresistor
 
 // Communication Settings
-const int baud = 333;    // Bits per second
+const int baud = 50;    // Bits per second
 long period; // Milliseconds between bits
 
 // Light settings (may need calibration)
