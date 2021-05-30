@@ -24,7 +24,10 @@ For an excellent explanation of Serial communication, check out [Nick Gammon's p
 ## Results
 Ambient light level in my room was ~350 and I started with an "offset" of 20, so any reading below 350 - 20 = 330 would be considered a 1. This allowed reliable data transmission up to baud 60, or a bit period of 16ms. I found that increasing the offset allowed for much higher speeds. With an offset of 150, I was able to get 100% reliable transmission at baud 333, or one bit every 3 ms.
 
-I did not expect this performance from a cheap LED. I believe that the speed is mostly limited by the responsiveness of the LED and photoresistor. Perhaps some additional circuitry could improve their performance.  
+I did not expect this performance from a cheap LED. I believe that the speed is mostly limited by the responsiveness of the LED and photoresistor. Perhaps some additional circuitry could improve their performance.
+
+## Going Further
+If the Transmitter and Receiver Arduinos are connected to 2 different computers, then the Transmit.ino code could be modified to take Serial input for the message, rather than repeating the same message over and over again. This not possible with just one computer, as the Arduino IDE only allows one Serial monitor to be open at a time (you can either have the transmitter or receiver monitor open, but not both).
 
 ## Troubleshooting
 - Ensure that you are correctly switching between COM ports when uploading code and viewing the Serial monitor. Since this project uses two Arduinos, you will be switching frequently.
