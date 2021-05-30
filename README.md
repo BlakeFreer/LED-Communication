@@ -1,4 +1,4 @@
-# LED-Communication
+# LED-Serial
 Sending data between Arduino's with an LED and photoresistor
 
 ## Introduction
