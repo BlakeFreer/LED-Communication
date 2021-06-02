@@ -15,7 +15,7 @@ For an excellent explanation of Serial communication, check out [Nick Gammon's p
 
 ## Instructions
 1. Wire the photoresistor module to one Arduino, with the signal pin going to Analog Pin 0.
-2. Place the LED directly beside the photoresistor on the breadboard. Connect the negative side to the other Arduino's ground and the positive side to digital pin 8 through the resistor. (See WiringDiagram.png for visuals)
+2. Place the LED directly beside the photoresistor on the breadboard. Connect the negative side to the other Arduino's ground and the positive side to digital pin 8 through the resistor. (See [WiringDiagram.png](WiringDiagram.png) for visuals)
 3. Connect both Arduinos to your computer.
 4. Run CalibratePhotoresistor.ino on the Receiver Arduino (the one with the photoresistor) and follow the instructions in that file.
 5. Upload Transmit.ino to the Transmitter Arduino and Receive.ino to the Receiver Arduino
