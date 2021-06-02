@@ -1,5 +1,5 @@
 # LED-Serial
-Sending data between Arduino's with an LED and photoresistor
+Sending data between Arduinos with an LED and photoresistor
 
 ## Introduction
 Arduinos and other microcontrollers often use Serial communication to transmit and receive data. Serial sends data in the form of individual bits, one after the other at a fixed rate. I wanted to replicate that system in a wireless way. This project uses an LED to transmit data and a photoresistor to receive it.
