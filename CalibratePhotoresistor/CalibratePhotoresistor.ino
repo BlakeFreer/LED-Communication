@@ -6,7 +6,7 @@
  *  Run this file on the photoresistor Arduino
  *  Open Serial Monitor and set baud to 57600
  *  Determine the stable value of the photoresistor under ambient conditions
- *  In Recevie.ino, set backgroundLightLevel to this value
+ *  In Receive.ino, set backgroundLightLevel to this value
  */
 
 int photoPin = 0;
