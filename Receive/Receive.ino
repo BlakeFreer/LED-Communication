@@ -9,7 +9,7 @@ long period; // Milliseconds between bits
 
 // Light settings (may need calibration)
 int backgroundLightLevel = 350; // Background light level
-int offset = 150;     // Required change in light-level to constitute a "1" signal
+int threshold = 150;     // Required change in light-level to constitute a "1" signal
 
 void setup() {
     pinMode(photoPin, INPUT);
@@ -43,5 +43,5 @@ char readChar(){
 
 int readLight() {
     // Returns 1 if the LED is on (low light level) and 0 if off (high light level)
-    return analogRead(photoPin) <= backgroundLightLevel - offset;
+    return analogRead(photoPin) <= backgroundLightLevel - threshold;
 }
